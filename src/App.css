@@ -1,0 +1,26 @@
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.audio-controls {
+  height: 100px;
+  width: 300px;
+  padding: 1rem;
+  background-color: white;
+  position: absolute;
+  bottom: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 4px;
+
+  button {
+    padding: 1rem;
+  }
+}
